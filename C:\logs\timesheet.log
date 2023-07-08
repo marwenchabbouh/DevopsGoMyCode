@@ -1,0 +1,14 @@
+2023-06-24 17:26:13.282  INFO 21975 --- [main] t.e.spring.service.UserServiceImplTest   : Starting UserServiceImplTest on maroua-Inspiron-16-5620 with PID 21975 (started by maroua in /home/maroua/Bureau/Devops-gomycode-master/Devops-gomycode-master)
+2023-06-24 17:26:13.283  INFO 21975 --- [main] t.e.spring.service.UserServiceImplTest   : No active profile set, falling back to default profiles: default
+2023-06-24 17:26:13.914  INFO 21975 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-24 17:26:13.963  INFO 21975 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2023-06-24 17:26:14.016  INFO 21975 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-06-24 17:26:14.270  INFO 21975 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-06-24 17:26:14.798  INFO 21975 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-24 17:26:15.028  WARN 21975 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-24 17:26:15.433  INFO 21975 --- [main] t.e.spring.service.UserServiceImplTest   : Started UserServiceImplTest in 2.379 seconds (JVM running for 2.861)
+2023-06-24 17:26:15.575  INFO 21975 --- [main] t.e.spring.services.UserServiceImpl      : In retrieveAllUsers() : 
+2023-06-24 17:26:15.650  INFO 21975 --- [main] t.e.spring.services.UserServiceImpl      : Out of retrieveAllUsers() : 
+2023-06-24 17:26:15.690  INFO 21975 --- [main] t.e.spring.services.UserServiceImpl      : in  retrieveUser id = 3
+2023-06-24 17:26:15.697  INFO 21975 --- [main] t.e.spring.services.UserServiceImpl      : in  retrieveUser id = 1
+2023-06-24 17:26:15.701  INFO 21975 --- [main] t.e.spring.services.UserServiceImpl      : user returned : User [id=1, firstName=Mayssa1, lastName=Mayssa1, dateNaissance=2015-03-23, role=INGENIEUR]
