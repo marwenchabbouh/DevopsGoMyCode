@@ -58,7 +58,7 @@ stages{
  
 
  
- } 
+ 
  
  stage("Deployment stage") {
             steps {
@@ -71,6 +71,6 @@ stages{
         }
  
  
-}
+
 
 }
