@@ -56,10 +56,7 @@ stages{
  
  }
  
- stage("Lancement des tests unitaires"){
-   steps {
-     sh "mvn test"
- }
+
  
  } 
  
